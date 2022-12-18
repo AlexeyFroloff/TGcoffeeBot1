@@ -323,7 +323,7 @@ def statistics(file = "just_a_sample.xlsx", sheet_name = "Лист1"): #обща
     return save_filename #возвращаем файл
 
 if True:
-    bot = Bot(token = '5865061336:AAHghKOlhfhY2lqBGeB7t7bl47VzIeKuRyo')
+    bot = Bot(token = 'токен бота')
     dp = Dispatcher(bot)
     chat_id = 0
     print("woked up")
